@@ -1,0 +1,126 @@
+.container-login {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-login{
+    background-color: #F7EDE1;
+    height: 100%;
+    width: 456px;
+    margin-left: auto;
+    border-radius: 9px;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.form-login h2{
+    padding-top: 0;
+    padding-bottom: 20px;
+    color: black;
+    margin-left: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.form-login input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding-left: 16px;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.form-login span{
+    display: flex;
+    justify-content: start;
+    align-content: start;
+    margin-left: 35px;
+    margin-bottom: 8px;
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+.form-login .link-senha{
+    display: flex;
+    justify-content: end;
+    margin-right: 35px;
+    margin-top: 0px;
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
+    color: #007AFF;
+    text-decoration: none;
+}
+.form-login .criar-conta{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 0px;
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.form-login .link-conta{
+    text-decoration: none;
+    color: #007AFF;
+    cursor: pointer;
+}
+
+.btn-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007AFF;
+    color: white;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #6fa4da;
+    color: white;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
