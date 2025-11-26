@@ -8,7 +8,7 @@ function Home() {
     <>
       <div className="hearder">
         <img className='logo' src={logo} alt="logo" />
-        <h1>Neo-pix</h1>
+        <h1><Link to={"/Home"}>Neo-pix</Link></h1>
         <nav>
           <ul><Link to={"/transferencia"}>transferencia</Link></ul>
           <ul><Link to={"/pendencias"}>pendentes</Link></ul>
